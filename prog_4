@@ -1,0 +1,7 @@
+a = 3; 
+b = a * (2 + 5) - 4; 
+c = b div 2 + 10 mod 3; 
+d = 1230412;
+e = 321321132;
+bangou = 25059088; 
+shimei = MuhammadAlifHamka;
