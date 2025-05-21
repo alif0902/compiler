@@ -27,7 +27,7 @@ int insert(char s[], int tok, int loc)	/* returns position of entry for s */
 	lastentry = lastentry + 1;
 	symtable[lastentry].token = tok;
 	symtable[lastentry].lexptr = &lexemes[lastchar + 1];
-	symtable[lastentry].location = loc;
+	symtable[lastentry].location = lastentry;
 	lastchar = lastchar +len +1;
 	strcpy(symtable[lastentry].lexptr, s);
 	return lastentry;

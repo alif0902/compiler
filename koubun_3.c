@@ -6,6 +6,7 @@ void term();		/* T := F{(*|/|DIV|MOD)F} */
 void factor();		/* F := i|n|(E) */
 void stmt();
 void assign();
+void skiptoken(int n);
 int match(int t);	/* check token with syantax element and get next token */
 
 int lookahead;		/* next token */
